@@ -1,0 +1,70 @@
+body {
+    background-color: #3779c5;
+    font-family: 'Nunito', sans-serif;
+}
+
+.title {
+    color: #eaedf5;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+
+.container {
+    background-color: #eaedf5;
+    width: 50%;
+    max-width: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+table {
+    color: #071729;
+    margin: auto;
+}
+
+th {
+    text-align: right;
+    font-size: 30px;
+}
+
+input {
+    color: #071729;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 20%;
+    padding: 5%;
+    display: block;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button#generate {
+    background-color: #3779c5;
+    color: #eaedf5;
+    font-size: 18px;
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3% 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+  
+#result {
+    text-align: center;
+    font-size: 40px;
+    color: #143964;
+}
